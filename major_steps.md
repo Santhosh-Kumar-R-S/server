@@ -89,6 +89,14 @@ EXIT;
 
 **Clone your project:**
 
+Before going to clone create the directory for the project like `www` inside that you need to clone the project 
+
+To make the directory
+
+```bash
+mkdir www
+```
+
 ```bash
 git clone https://github.com/yourrepo/project.git
 cd project
