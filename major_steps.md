@@ -89,7 +89,7 @@ EXIT;
 
 **Clone your project:**
 
-Before going to clone create the directory for the project like `/var/www/` inside that you need to clone the project 
+Before going to clone create the directory for the project like `/home/Santhosh/public_html/projectname` inside that you need to clone the project 
 
 To make the directory
 
