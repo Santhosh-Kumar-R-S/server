@@ -94,6 +94,17 @@ git clone https://github.com/yourrepo/project.git
 cd project
 ```
 
+**To Clone Private Repo**
+
+run the below command on your server  
+
+```bash
+ssh-keygen -t ed25519 -C "your_email@example.com"
+```
+after running this key save it on the server and copy that genearated key and paste that key on the github settings 
+
+`github.com/settings/keys`
+
 **Install dependencies:**
 
 ```bash
