@@ -89,13 +89,15 @@ EXIT;
 
 **Clone your project:**
 
-Before going to clone create the directory for the project like `www` inside that you need to clone the project 
+Before going to clone create the directory for the project like `/var/www/` inside that you need to clone the project 
 
 To make the directory
 
 ```bash
-mkdir www
+mkdir project_name
 ```
+
+after creating the www floder change the direct to the 
 
 ```bash
 git clone https://github.com/yourrepo/project.git
@@ -104,13 +106,27 @@ cd project
 
 **To Clone Private Repo**
 
-run the below command on your server  
+run the below command on your Ubuntu/Linux  
 
 ```bash
-ssh-keygen -t ed25519 -C "your_email@example.com"
+ssh-keygen -t ed25519 -C "your_github_email_id"
 ```
-after running this key save it on the server and copy that genearated key and paste that key on the github settings 
 
+
+after running this above command and save it on the server by clicking the enter for the file name and the passphrase(no need to enter the filename and the passphrase) 
+once that done just copy the public ssh key generated and stored under the .ssh directory
+path of the ssh generated file 
+if you login as the root/user the ssh file is created under that 
+
+```bash
+~/.ssh/id_ed25519.pub
+```
+to open the above file run the below command
+
+```bash
+cat ~/.ssh/id_ed25519.pub
+```
+Once genearated the key just copy that key and goto the github and select the repository and click on the code there click on the add new key if you not done before and it will takes you to the github settings and under the ssh it will ask you to the enter the title and give it as the project name and  
 `[github.com/settings/ssh](https://github.com/settings/ssh/new)`
 
 **Install dependencies:**
