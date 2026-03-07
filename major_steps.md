@@ -94,7 +94,8 @@ Before going to clone create the directory for the project like `/home/Santhosh/
 To make the directory
 
 ```bash
-mkdir project_name
+mkdir public_html
+mkdir projectname
 ```
 
 after creating the www floder change the direct to the 
