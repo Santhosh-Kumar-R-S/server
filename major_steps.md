@@ -103,7 +103,7 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 after running this key save it on the server and copy that genearated key and paste that key on the github settings 
 
-`github.com/settings/keys`
+`[github.com/settings/ssh](https://github.com/settings/ssh/new)`
 
 **Install dependencies:**
 
