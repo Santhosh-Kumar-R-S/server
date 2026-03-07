@@ -126,7 +126,7 @@ to open the above file run the below command
 ```bash
 cat ~/.ssh/id_ed25519.pub
 ```
-Once genearated the key just copy that key and goto the github and select the repository and click on the code there click on the add new key if you not done before and it will takes you to the github settings and under the ssh it will ask you to the enter the title and give it as the project name and  
+Once genearated the key just copy that key and goto the github and select the repository and click on the code there click on the add new key if you not done before and it will takes you to the github settings and under the ssh it will ask you to the enter the title and give it as the project name and  paste the key and save it 
 `[github.com/settings/ssh](https://github.com/settings/ssh/new)`
 
 **Install dependencies:**
