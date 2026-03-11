@@ -167,6 +167,8 @@ http://localhost:3000
 
 **Install PM2 globally:**
 
+Inside the api folder run this below command 
+
 ```bash
 sudo npm install -g pm2
 ```
