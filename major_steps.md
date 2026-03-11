@@ -101,7 +101,7 @@ mkdir projectname
 after creating the www floder change the direct to the 
 
 ```bash
-git clone https://github.com/yourrepo/project.git
+git clone https://github.com/yourrepo/project.git .
 cd project
 ```
 
@@ -133,7 +133,7 @@ Once genearated the key just copy that key and goto the github and select the re
 Run this below command to access/pull the github files through the Server
 
 ```bash
-git clone https://github.com/yourrepo/project.git
+git clone https://github.com/yourrepo/project.git .
 cd project
 ```
 
