@@ -89,12 +89,12 @@ EXIT;
 
 **Clone your project:**
 
-Before going to clone create the directory for the project like `/home/username/public_html/projectname` inside that you need to clone the project 
+Before going to clone create the directory for the project like `/var/www/projectname` inside that you need to clone the project 
 
 To make the directory
 
 ```bash
-mkdir public_html
+cd /var/www/
 mkdir projectname
 ```
 
