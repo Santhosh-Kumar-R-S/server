@@ -87,24 +87,6 @@ EXIT;
 
 ## 5. Deploy Application
 
-**Clone your public project:**
-
-Before going to clone create the directory for the project like `/var/www/projectname` inside that you need to clone the project 
-
-To make the directory
-
-```bash
-cd /var/www/
-mkdir projectname
-```
-
-after creating the www floder change the direct to the 
-
-```bash
-git clone https://github.com/yourrepo/project.git .
-cd project
-```
-
 **To Clone Private Repo**
 
 run the below command on your Ubuntu/Linux  
@@ -136,6 +118,27 @@ Run this below command to access/pull the github files through the Server
 git clone https://github.com/yourrepo/project.git .
 cd project
 ```
+
+
+**Clone your public project:**
+
+Before going to clone create the directory for the project like `/var/www/projectname` inside that you need to clone the project 
+
+To make the directory
+
+```bash
+cd /var/www/
+mkdir projectname
+```
+
+after creating the www floder change the direct to the 
+
+```bash
+git clone https://github.com/yourrepo/project.git .
+cd project
+```
+
+
 
 **Install dependencies:**
 
