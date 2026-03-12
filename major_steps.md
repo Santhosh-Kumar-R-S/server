@@ -87,7 +87,7 @@ EXIT;
 
 ## 5. Deploy Application
 
-**Clone your project:**
+**Clone your public project:**
 
 Before going to clone create the directory for the project like `/var/www/projectname` inside that you need to clone the project 
 
